@@ -24,8 +24,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-175"
-		"ypos"										"c95"
+		"xpos"										"rs1-150"
+		"ypos"										"30"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"80"
@@ -41,8 +41,8 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"c-205"
-		"ypos"										"c107"
+		"xpos"										"rs1-70"
+		"ypos"										"9920"
 		"zpos"										"-4"
 		"wide"										"66"
 		"tall"										"66"
@@ -51,7 +51,6 @@
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
 	}
-
 	//==================================================================================================================================================
 	// PLAYER HEALTH
 	//==================================================================================================================================================
@@ -67,9 +66,9 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%Health%"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"									"Health Numbers"
+		"textAlignment"								"east"
+		"font"										"price36"
+		"fgcolor"									"hp"
 
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
@@ -87,30 +86,11 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"%Health%"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
+		"textAlignment"								"east"
+		"font"										"price36"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"HealthValue"
-	}
-	"HealthValue_Shadow_Extra"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"HealthValue_Shadow_Extra"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"5"
-		"wide"										"150"
-		"tall"										"80"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"%Health%"
-		"textAlignment"								"center"
-		"font"										"m0refont72"
-		"fgcolor"									"Extra Shadow"
-		"alpha"										"0"
-
-		"pin_to_sibling"							"HealthValue_Shadow"
 	}
 
 	//==================================================================================================================================================
@@ -132,7 +112,116 @@
 		"pin_corner_to_sibling"						"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
 	}
-
+	"fist"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"fist"
+		"xpos"										"rs1-12"
+		"ypos"										"33"
+		"zpos"										"-4"
+		"wide"										"50"
+		"tall"										"50"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/fist"
+		"scaleImage"								"1"
+	}
+	"hp"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"hp"
+		"xpos"										"-77"
+		"ypos"										"-32"
+		"zpos"										"-4"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/hp"
+		"scaleImage"								"1"
+		"drawcolor"									"hp"
+		"pin_to_sibling"							"HealthValue"
+	}
+	"hps"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"hps"
+		"xpos"										"-78"
+		"ypos"										"-33"
+		"zpos"										"-5"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/hp"
+		"scaleImage"								"1"
+		"drawcolor"									"black"
+		"pin_to_sibling"							"HealthValue"
+	}
+	"speedo"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"speedo"
+		"xpos"										"140"
+		"ypos"										"7"
+		"zpos"										"-4"
+		"wide"										"128"
+		"tall"										"31"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/speedometer"
+		"scaleImage"								"1"
+		"drawcolor"									"armor"
+		"pin_to_sibling" "hp"
+	}
+	"speedos"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"speedos"
+		"xpos"										"138"
+		"ypos"										"5"
+		"zpos"										"-5"
+		"wide"										"128"
+		"tall"										"31"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/speedometer"
+		"scaleImage"								"1"
+		"drawcolor"									"black"
+		"pin_to_sibling" "hp"
+	}
+	"ar"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ar"
+		"xpos"										"-50"
+		"ypos"										"-6"
+		"zpos"										"-4"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/ar"
+		"scaleImage"								"1"
+		"drawcolor"									"armor"
+		"pin_to_sibling" "speedo"
+	}
+	"ars"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ars"
+		"xpos"										"-51"
+		"ypos"										"-7"
+		"zpos"										"-5"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/ar"
+		"scaleImage"								"1"
+		"drawcolor"									"black"
+		"pin_to_sibling" "speedo"
+	}
 	//==================================================================================================================================================
 	// STATUS ICONS
 	//==================================================================================================================================================

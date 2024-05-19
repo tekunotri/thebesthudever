@@ -1,0 +1,2438 @@
+#base "base/mod_textures.txt"
+
+"sprites/1280_hud"
+{
+
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+	
+	TextureData
+	{
+		
+	"leaderboard_streak"
+			{
+				"file"		"vgui/logos/killstreaks/killstreak"
+				"negfile"	"vgui/logos/killstreaks/killstreak"
+				"x"		"0"
+				"y"		"0"
+				"width"		"0"
+				"height"	"0"
+			}					
+	
+		"skull_tf"
+		{
+				"dnegfile"	"vgui/logos/kill"
+				"dfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"obj_sentrygun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"obj_sentrygun2"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"obj_sentrygun3"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bat"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pistol"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pistol_scout"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"nailgun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"sniperrifle"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"smg"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"club"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shovel"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"tf_projectile_rocket"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shotgun_primary"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shotgun_soldier"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shotgun_hwg"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shotgun_pyro"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"tf_projectile_pipe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bottle"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"syringegun_medic"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"minigun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pipe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"flamethrower"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"fists"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"fireaxe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bonesaw"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"knife"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"revolver"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"flaregun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"wrench"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"scattergun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"tf_projectile_pipe_remote"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"vehicle"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"skull"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"backstab"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ubersaw"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"axtinguisher"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_pyro"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"obj_attachment_sapper"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_promode"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_sticky"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_rocket"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_flare"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bat_wood"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ball"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_heavy"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_scout"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"gloves"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ambassador"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"huntsman"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512" 
+				"height"	"128"
+		}
+		"huntsman_burning"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"huntsman_flyingburn"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_spy"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"huntsman_headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ambassador_headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_sniper"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"saw_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_arrow"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"firedeath"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pumpkindeath"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_soldier"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_demoman"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"sword"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"demoshield"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pickaxe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"rocketlauncher_directhit"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"sticky_resistance"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"player_sentry"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"battleaxe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"tribalkukri"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"sledgehammer"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"paintrain"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_huntsman_headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"huntsman_flyingburn_headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_medic"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"samrevolver"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"natascha"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"maxgun"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"force_a_nature"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_huntsman_flyingburn_headshot"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_huntsman_flyingburn"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"deflect_ball"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		
+		"building_carried_destroyed"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"taunt_guitar_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"frontier_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"wrench_golden"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"southern_comfort_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bleed_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"wrangler_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"robot_arm_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"robot_arm_combo_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"robot_arm_blender_kill"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"degreaser"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"powerjack"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"eternal_reward"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"letranger"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"shortstop"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"holymackerel"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"headtaker"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"fryingpan"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"back_scratcher"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"boston_basher"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"claidheamohmor"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"steel_fists"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}					
+		"ullapool_caber_explosion"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"ullapool_caber"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"candy_cane"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"amputator"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"blackbox"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"wrench_jag"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"warrior_spirit"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"loch_n_load"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"iron_curtain"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"crusaders_crossbow"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"battleneedle"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"sydney_sleeper"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"cow_mangler"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"righteous_bison"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"bushwacka"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"taunt_soldier_lumbricus"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}						
+		"brass_beast"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}			
+		"gloves_running_urgently"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}			
+		"blutsauger"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}			
+		"sandman"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"backburner"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"lava_bat"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}	
+		"lava_axe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"obj_minisentry"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"kunai"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"warfan"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"demokatana"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"scout_sword"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"ico_notify_golden_wrench"
+		{
+			"file"	"vgui/logos/kill"		
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}	
+		
+		"the_maul"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+
+		"saxxy"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"market_gardener"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"the_winger"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"tomislav"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"soda_popper"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"atomizer"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"bazaar_bargain"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"big_earner"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"detonator"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"eviction_notice"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"family_business"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"liberty_launcher"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"proto_syringe"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"persian_persuader"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"reserve_shooter"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"shahanshah"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"enforcer"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"disciplinary_action"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"splendid_screen"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"mantreads"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"solemn_vow"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"nessieclub"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"mailbox"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"quake_rl"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"diamondback"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"widowmaker"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		
+		"short_circuit"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"machina"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"player_penetration"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"headshot_player_penetration"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"rocketpack_stomp"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+
+		"nonnonviolent_protest"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"scotland_shard"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"baleful_beacon"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"unarmed_combat"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"voodoo_pin"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"eyeball_rocket"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"purgatory"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"apocofists"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"sharp_dresser"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}
+		"sharp_dresser_backstab"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"		
+		}				
+		"phlogistinator"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"manmelter"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"thirddegree"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"eureka_effect"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"pomson"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"holiday_punch"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"spy_cicle"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"wrap_assassin"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"black_rose"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"lollichop"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"scorch_shot"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"rainblower"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"	
+		}
+		"pro_smg"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pep_pistol"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"armageddon"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pro_rifle"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"pep_brawlerblaster"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"dumpster_device"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"long_heatmaker"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"annihilator"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"guillotine"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"recorder"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"loose_cannon_impact"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"freedom_staff"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"merasmus_decap"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"merasmus_zap"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"merasmus_grenade"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"merasmus_player_bomb"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"loose_cannon_explosion"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"rescue_ranger"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"memory_maker"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"loose_cannon_reflect"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}		
+		"rescue_ranger_reflect"
+		{
+			"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ham_shank"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"psapper"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_teleport"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_skeleton"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_mirv"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_meteor"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_lightning"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_fireball"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_boss"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_blastjump"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_bats"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"spellbook_athletic"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"golden_fryingpan"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"australium"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"the_classic"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"tide_turner"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bread_bite"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"snack_attack"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"back_scatter"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"airstrike"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"ai_flamethrower"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"necro_smasher"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"bumper_kart"
+		{
+				"dfile"	"vgui/logos/kill"
+				"dnegfile"	"vgui/logos/kill"
+				"x"		"0"
+				"y"		"0"
+				"width"		"512"
+				"height"	"128"
+		}
+		"crossing_guard"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"iron_bomber"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"quickiebomb_launcher"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"panic_attack"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		// Mannpower
+		"mannpower_agility"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_vamp"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_resist"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_haste"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_fist"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_reflect"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_precision"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_strength"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_regen"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_king"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_plague"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"mannpower_supernova"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		// END Mannpower
+
+		// Passtime
+		"passtime_intercept"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"passtime_steal"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"passtime_pass"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+		"passtime_score_blue"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+		"passtime_score_red"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+		"batsaber"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+		"the_capper"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+ 		"shooting_star"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+ 		"giger_counter"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+ 		"prinny_machete"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"	
+		}
+
+		"crocodile"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+
+ 		"dragons_fury"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+
+ 		"dragons_fury_bonus"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+
+		"hot_hand"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}
+
+		"gas_blast"
+		{
+			"dfile"	"vgui/logos/kill"
+			"dnegfile"	"vgui/logos/kill"
+			"x"		"0"
+			"y"		"0"
+			"width"		"512"
+			"height"	"128"
+		}		
+	}
+}

@@ -2768,6 +2768,101 @@
 				"antialias"									"1"
 			}
 		}
+		"price20"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"price20shadow"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"20"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"price24"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"24"
+				"antialias"									"1"
+			}
+		}
+		"price24Shadow"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"24"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"price24Outline"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"24"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"price24Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"24"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
+		"price26"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"26"
+				"antialias"									"1"
+			}
+		}
+		"price30"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"30"
+				"antialias"									"1"
+			}
+		}
+		"price36"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"36"
+				"antialias"									"1"
+			}
+		}
+		"price48"
+		{
+			"1"
+			{
+				"name"										"PricedownBl-Regular"
+				"tall"										"48"
+				"antialias"									"1"
+			}
+		}
+
 	}
 	"CustomFontFiles"
 	{
@@ -2924,6 +3019,16 @@
 		{
 			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
 			"name"		"m0rehud Icons V5"
+		}
+		"14"
+		{
+			"font"		"resource/scheme/fonts/PircedownBL-Regular.otf"
+			"name"		"PircedownBL-Regular"
+		}
+		"15"
+		{
+			"font"		"resource/scheme/fonts/PricedownBl-Regular.ttf"
+			"name"		"PricedownBl-Regular"
 		}
 	}
 }

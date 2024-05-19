@@ -227,7 +227,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"15"
-		"wide"										"150"
+		"wide"										"230"
 		"tall"										"14"
 		"visible"									"0"
 
@@ -529,6 +529,32 @@
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"Menu Labels"
 			"depressedFgColor_override"				"Menu Labels"
+		}
+	}
+	"custombg"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"custombg"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"bg"
+		{
+			"ControlName"								"ImagePanel"
+			"fieldName"									"bg"
+			"xpos"										"0"
+			"ypos"										"0"
+			"zpos"										"0"
+			"wide"										"f0"
+			"tall"										"f0"
+			"visible"									"1"
+			"enabled"									"1"
+			"scaleImage" 								"1"
+			"image"										"replay/thumbnails/menu"
 		}
 	}
 	"Friends"
