@@ -17,6 +17,23 @@
 		"ControlName"								"CExRichText"
 		"fieldName"									"TFTextMessage"
 		"font"										"m0refont11"
+		"xpos"										"r0"
+		"ypos"										"cs-0.5"
+		"zpos"										"1"
+		"wide"										"400"
+		"tall"										"200"
+		"visible"									"0"
+		"enabled"									"1"
+		"textAlignment"								"west"
+		"fgcolor"									"White"
+		"bgcolor_override"							"Blank"
+		"paintBackground"							"0"
+		"proportionaltoparent"						"1"
+	}
+	"MapRotation"
+	{
+		"ControlName"								"Label"
+		"font"										"m0refont11"
 		"xpos"										"cs-0.5"
 		"ypos"										"cs-0.5"
 		"zpos"										"1"
@@ -24,8 +41,14 @@
 		"tall"										"200"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"west"
+		"textAlignment"								"north-west"
 		"fgcolor"									"White"
+		"bgcolor_override"							"Blank"
+		"paintBackground"							"0"
+		"labelText"									"Welcome to Team Fortress 2
+		
+		Our map rotation is:
+		- Dust2 24/7 No Awp/Auto"
 		"proportionaltoparent"						"1"
 	}
 	"HTMLMessage"
@@ -40,6 +63,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"paintborder"								"0"
+		"paintBackground"							"0"
 		"proportionaltoparent"						"1"
 	}
 	"TFMessageTitle"

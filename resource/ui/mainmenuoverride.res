@@ -90,6 +90,93 @@
 			}
 		}
 	}
+	
+	"Test"
+	{
+		"ControlName"			"Panel"
+		"xpos"					"r280"
+		"ypos"					"0"
+		"wide"					"0"
+		"tall"					"0"
+	}
+
+	
+	"ExpandableList"
+	{
+		"pin_to_sibling"	"test"
+	}
+
+	"Gentleman"
+	{
+		"ControlName"	"CMatchHistoryEntryPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"90000"
+		"wide"			"f0"
+		"tall"			"1"
+		"visible"		"1"
+		"proportionaltoparent"    "1"
+
+		"collapsed_height"    "1"
+		"expanded_height"    "480"
+		"resize_time"		"5.0"
+
+		"autoResize"	"3"
+
+		"ignorescheme"    "1"
+
+		"container"{"visible" "0"}
+		"BottomStats"{"visible" "0"}
+
+		"toggle"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"textAlignment"	"west"
+			"Command"		"toggle_collapse"
+			"proportionaltoparent"	"1"
+			"labeltext"		""
+			"textinsety"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets"	"1"
+			"paintbackgroundtype"	"0"
+			"roundedcorners"	"0"
+
+			"sound_depressed"	"UI/joe.mp3"
+			"sound_released"	""
+			"sound_armed"		"UI/buttonrollover.wav"
+		}
+
+		"Contents"
+		{
+			"ControlName"	"ImagePanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"1"
+			"proportionaltoparent"	"1"
+			"autoResize"	"2"
+			"image"		"replay/thumbnails/gentleman"
+			"scaleImage"	"1"
+		}
+
+		"Block"
+		{
+			"ControlName"	"Panel"
+			"zpos"			"2"
+			"ypos"			"-480"
+			"tall"			"480"
+			"wide"			"f0"
+			"proportionaltoparent"	"1"
+			"bgcolor_override"	"blank"
+			"pincorner"		"3"
+		}
+	}
 
 	//==================================================================================================================================================
 	// STATUS ICONS ANCHOR
@@ -1387,8 +1474,19 @@
 		"ypos"										"cs-0.5+65"
 		"zpos"										"11"
 		"wide"										"110"
-		"tall"										"214"
+		"tall"										"150"
 		"visible"									"0"
+
+		"Priest"
+		{
+			"ControlName"			"ImagePanel"
+			"zpos"					"10"
+			"wide"					"f0"
+			"tall"					"f0"
+			"proportionaltoparent"	"1"
+			"image"					"replay/thumbnails/friends"
+			"scaleImage"			"1"
+		}
 
 		"CloseButton"
 		{
@@ -1396,7 +1494,7 @@
 			"fieldName"								"CloseButton"
 			"xpos"									"rs1"
 			"ypos"									"0"
-			"zpos"									"1"
+			"zpos"									"11"
 			"wide"									"16"
 			"tall"									"16"
 			"visible"								"1"

@@ -1,0 +1,43 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/spin"
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+	"$framerate"	10
+	"$speed"	0
+	$curTime	0
+	$curTimeInt	0
+	$min		10
+	$max		64
+	$rate		10
+
+	"Proxies"
+	{
+		"PlayerSpeed"
+		{
+			scale 0.08
+			resultVar $rate
+		}
+		"LinearRamp"
+		{
+			rate			$rate
+			initialValue	0
+			resultVar		$curTime
+		}
+
+		"WrapMinMax"
+		{
+			minval				$min
+			maxval				$max
+			srcVar1		$curTime
+			resultVar	$curTimeInt
+		}
+
+		"Int"
+		{
+			srcVar1		$curTimeInt
+			resultVar	$frame
+		}
+	}
+} 
+

@@ -1,5 +1,16 @@
 "Resource/UI/Destroy_Menu/HudMenuEngyDestroy.res"
 {
+
+	"Ted"
+	{
+		"ControlName"			"ImagePanel"
+		"wide"					"f0"
+		"tall"					"f0"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/ted"
+		"scaleImage"			"1"
+		"alpha"					"2"
+	}
 	"ItemsAnchor"
 	{
 		"ControlName"								"EditablePanel"

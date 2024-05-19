@@ -12,6 +12,17 @@
 		"wide"										"f0"
 		"tall"										"480"
 	}
+	"hair"
+	{
+		"ControlName"			"ImagePanel"
+		"xpos"					"c0"
+		"ypos"					"cs-1"
+		"wide"					"80"
+		"tall"					"80"
+		"image"					"replay/thumbnails/hair"
+		"scaleImage"			"1"
+		"fillcolor"				"blank"
+	}
 	"HudWeaponAmmo"
 	{
 		"fieldName"									"HudWeaponAmmo"

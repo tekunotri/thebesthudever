@@ -15,6 +15,17 @@
 		"visible"									"1"
 		"enabled"									"1"
 	}
+	"Spin"
+	{
+		"ControlName"			"ImagePanel"
+		"xpos"					"10"
+		"ypos"					"rs1-50"
+		"wide"					"100"
+		"tall"					"50"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/spin"
+	}
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
