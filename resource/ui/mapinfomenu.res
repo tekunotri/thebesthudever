@@ -42,7 +42,7 @@
 		"enabled"									"1"
 		"labelText"									"%mapname%"
 		"textAlignment"								"center"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 		"fgcolor"									"White"
 		"AllCaps"									"1"
 
@@ -64,7 +64,7 @@
 		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"continue"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -100,7 +100,7 @@
 		"labelText"									"WATCH MOVIE"
 		"textAlignment"								"center"
 		"command"									"intro"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

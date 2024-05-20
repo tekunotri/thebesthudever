@@ -26,6 +26,30 @@
 		"proportionaltoparent"	"1"
 		"image"					"replay/thumbnails/spin"
 	}
+	"engineer"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"engineer"
+		"xpos"					"125"
+		"ypos"					"rs1"
+		"wide"					"64"
+		"tall"					"64"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/engineer"
+	}
+	"miyako"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"miyako"
+		"xpos"					"10"
+		"ypos"					"rs1"
+		"wide"					"64"
+		"tall"					"64"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
+		"image"					"replay/thumbnails/miyako"
+	}
 	"PlayerStatusClassImage"
 	{
 		"ControlName"								"CTFClassImage"
@@ -62,8 +86,8 @@
 		"xpos"										"10"
 		"ypos"										"r130"
 		"zpos"										"2"
-		"wide"										"65"
-		"tall"										"130"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 

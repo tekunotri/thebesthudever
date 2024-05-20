@@ -66,7 +66,7 @@
 		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"skip"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"
@@ -102,7 +102,7 @@
 		"labelText"									"BACK"
 		"textAlignment"								"center"
 		"command"									"back"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

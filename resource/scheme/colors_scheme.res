@@ -5,12 +5,15 @@
 		//=========================================================================================
 		// M0RE HUD COLOR CUSTOMIZATION
 		//=========================================================================================
-		
+
+
+		"Main"												"214 183 128 255"
 		"Health Numbers"									"255 255 255 255"
-		"armor" "153 172 108 255"
-		"hp" "178 102 53 255"
-		"money" "94 114 151 255"
-		"time" "214 183 128 255"
+		"armor" 											"153 172 108 255"
+		"hp" 												"178 102 53 255"
+		"money" 											"94 114 151 255"
+		"time" 												"214 183 128 255"
+		"graybg3"											"55 55 55 255"
 		"Health Buff"										"0 185 0 255"
 		"Health Buff Target"								"0 215 0 255"
 		"Health Buff Spec"									"0 215 0 255"
@@ -21,23 +24,23 @@
 		"Health Hurt Spec"									"255 0 0 255"
 		"Health Hurt Killer"								"255 0 0 255"
 
-		"Ammo In Clip"										"255 255 255 255"
+		"Ammo In Clip"										"49 142 235 255"
 		"Ammo In Reserve"									"255 255 255 255"
-		"Ammo No Clip"										"255 255 255 255"
+		"Ammo No Clip"										"49 142 235 255"
 
 		"Ammo In Clip Low"									"255 0 0 255"
 		"Ammo In Reserve Low"								"255 0 0 255"
 		"Ammo No Clip Low"									"255 0 0 255"
 
 		"Ubercharge"										"255 255 255 255"
-		"Ubercharge Full"									"255 0 127 255"
+		"Ubercharge Full"									"251 230 131 255"
 
 		"Extra Shadow"										"0 0 0 255"
 
 		"Heal Numbers"										"0 255 0 255"
 		"Last Damage Done"									"255 255 255 255"
 
-		"Menu Labels"										"255 0 127 255"
+		"Menu Labels"										"251 230 131 255"
 		"Class Selection"									"0 215 0 255"
 
 		"m0reBlue"											"0 120 201 255"
@@ -154,10 +157,10 @@
 
 		"HTMLBackground"									"95 92 101 255"
 
-		"ItemAttribLevel"									"117 107 94 255"
+		"ItemAttribLevel"									"255 255 255 255"
 		"ItemAttribNeutral"									"255 255 255 255"
-		"ItemAttribPositive"								"153 204 255 255"
-		"ItemAttribNegative"								"255 64 64 255"
+		"ItemAttribPositive"								"170 255 153 255"
+		"ItemAttribNegative"								"255 140 64 255"
 
 		"ItemSetName"										"225 255 15 255"
 		"ItemSetItemEquipped"								"149 175 12 255"
@@ -168,22 +171,22 @@
 		"ItemFlags"											"117 107 94 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
 
-		"QualityColorNormal"								"178 178 178 255"
-		"QualityColorrarity1"								"77 116 85 255"
-		"QualityColorrarity2"								"141 131 75 255"
-		"QualityColorrarity3"								"204 204 250 255"
-		"QualityColorrarity4"								"134 80 172 255"
-		"QualityColorVintage"								"71 98 145 255"
-		"QualityColorUnique"								"255 215 0 255"
-		"QualityColorCommunity"								"112 176 74 255"
-		"QualityColorDeveloper"								"165 15 121 255"
-		"QualityColorSelfMade"								"112 176 74 255"
-		"QualityColorCustomized"							"71 98 145 255"
-		"QualityColorStrange"								"207 106 50 255"
-		"QualityColorCompleted"								"134 80 172 255"
-		"QualityColorHaunted"								"56 243 171 255"
-		"QualityColorCollectors"							"170 0 0 255"
-		"QualityColorPaintkitWeapon"						"250 250 250 255"
+		"QualityColorNormal"								"148 127 127 255"
+		"QualityColorrarity1"								"51 102 61 255"
+		"QualityColorrarity2"								"107 97 38 255"
+		"QualityColorrarity3"								"109 109 189 255"
+		"QualityColorrarity4"								"129 56 180 255"
+		"QualityColorVintage"								"24 55 109 255"
+		"QualityColorUnique"								"22 170 158 255"
+		"QualityColorCommunity"								"56 97 48 255"
+		"QualityColorDeveloper"								"255 0 179 255"
+		"QualityColorSelfMade"								"56 97 48 255"
+		"QualityColorCustomized"							"84 153 147 255"
+		"QualityColorStrange"								"214 62 156 255"
+		"QualityColorCompleted"								"90 58 112 255"
+		"QualityColorHaunted"								"111 74 114 255"
+		"QualityColorCollectors"							"121 72 52 255"
+		"QualityColorPaintkitWeapon"						"255 255 255 255"
 
 		"ItemRarityDefault"									"131 126 119 255"
 		"ItemRarityCommon"									"176 195 217 255"
@@ -271,14 +274,13 @@
 		"Border.Dark"										"Black"
 		"Border.Selection"									"Gray"
 
-		"Button.TextColor"									"TanLight"
-		"Button.BgColor"									"TanDark"
-		"Button.ArmedTextColor"								"TanLight"
-		"Button.ArmedBgColor"								"TFOrange"
-		"Button.SelectedTextColor"							"TanLight"
-		"Button.SelectedBgColor"							"TFOrange"
-		"Button.DepressedTextColor"							"Black"
-		"Button.DepressedBgColor"							"TFOrange"
+		"Button.TextColor"									"White"
+		"Button.BgColor"									"55 55 55 125"
+		"Button.ArmedTextColor"								"White"
+		"Button.ArmedBgColor"								"55 55 55 200"
+		"Button.DepressedTextColor"							"White"
+		"Button.DepressedBgColor"							"55 55 55 125"
+		"Button.FocusBorderColor"							"Black"
 
 		"CheckButton.TextColor"								"Yellow"
 		"CheckButton.SelectedTextColor"						"Yellow"

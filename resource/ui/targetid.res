@@ -87,7 +87,7 @@
 		"fieldName"									"SpectatorGUIHealth"
 		"xpos"										"5"
 		"ypos"										"-5"
-		"wide"										"40"
+		"wide"										"60"
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"

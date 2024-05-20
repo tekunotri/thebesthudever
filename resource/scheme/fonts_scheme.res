@@ -143,7 +143,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"24"
 				"antialias"									"1"
 			}
@@ -152,7 +152,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"24"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -162,7 +162,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -172,7 +172,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Numbers"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"24"
 				"antialias"									"1"
 				"outline"									"1"
@@ -218,56 +218,56 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"72"
 				"yres"										"400 500"
 				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"88"
 				"yres"										"501 600"
 				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"95"
 				"yres"										"601 679"
 				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"103"
 				"yres"										"680 720"
 				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"110"
 				"yres"										"721 799"
 				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"117"
 				"yres"										"800 899"
 				"antialias"									"1"
 			}
 			"7"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"123"
 				"yres"										"900 1030"
 				"antialias"									"1"
 			}
 			"8"
 			{
-				"name"										"Surface-Medium"
+				"name"										"DFPPOPCorn-W12"
 				"tall"										"130"
 				"yres"										"1031 1199"
 				"antialias"									"1"
@@ -280,31 +280,34 @@
 				"antialias"									"1"
 			}
 		}
-		"Coolvetica11"
+		"azuki_font11"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"azuki_font"
 				"tall"										"11"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
-		"Coolvetica13"
+		"azuki_font13"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"azuki_font"
 				"tall"										"13"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
-		"Coolvetica15"
+		"azuki_font15"
 		{
 			"1"
 			{
-				"name"										"Coolvetica"
+				"name"										"azuki_font"
 				"tall"										"15"
 				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"VerdanaMenu"										//Create Server Button
@@ -320,7 +323,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V5"
+				"name"										"m0rehud Icons V11"
 				"tall"										"16"
 				"antialias"									"1"
 			}
@@ -329,7 +332,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V5"
+				"name"										"m0rehud Icons V11"
 				"tall"										"18"
 				"antialias"									"1"
 			}
@@ -338,7 +341,7 @@
 		{
 			"1"
 			{
-				"name"										"m0rehud Icons V5"
+				"name"										"m0rehud Icons V11"
 				"tall"										"20"
 				"antialias"									"1"
 			}
@@ -2033,7 +2036,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"azuki_font"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2044,7 +2047,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"azuki_font"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2055,7 +2058,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"azuki_font"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -2066,7 +2069,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Build"
+				"name"										"azuki_font"
 				"tall"										"18"
 				"weight"									"500"
 				"additive"									"0"
@@ -2077,7 +2080,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"azuki_font"
 				"tall"										"8"
 				"weight"									"500"
 				"additive"									"0"
@@ -2088,7 +2091,7 @@
 		{
 			"1"
 			{
-				"name"										"Verdana"
+				"name"										"azuki_font"
 				"tall"										"8"
 				"antialias"									"1"
 				"weight"									"500"
@@ -2098,7 +2101,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"azuki_font"
 				"tall"										"9"
 				"weight"									"500"
 				"additive"									"0"
@@ -2109,7 +2112,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"azuki_font"
 				"tall"										"12"
 				"weight"									"500"
 				"additive"									"0"
@@ -2120,7 +2123,7 @@
 		{
 			"1"
 			{
-				"name"										"TF2 Secondary"
+				"name"										"azuki_font"
 				"tall"										"14"
 				"weight"									"500"
 				"additive"									"0"
@@ -3007,8 +3010,8 @@
 		}
 		"11"
 		{
-			"font"		"resource/scheme/fonts/coolvetica.ttf"
-			"name"		"Coolvetica"
+			"font"		"resource/scheme/fonts/azuki_font.ttf"
+			"name"		"azuki_font"
 		}
 		"12"
 		{
@@ -3018,7 +3021,7 @@
 		"13"
 		{
 			"font"		"resource/scheme/fonts/m0rehud icons.ttf"
-			"name"		"m0rehud Icons V5"
+			"name"		"m0rehud Icons V11"
 		}
 		"14"
 		{
@@ -3030,5 +3033,16 @@
 			"font"		"resource/scheme/fonts/PricedownBl-Regular.ttf"
 			"name"		"PricedownBl-Regular"
 		}
+		"16"
+		{
+			"font"		"resource/scheme/fonts/azuki.ttf"
+			"name"		"azuki_font"
+		}
+		"17"
+		{
+			"font"		"resource/scheme/fonts/DFPOCOC.TTF"
+			"name"		"DFPPOPCorn-W12"
+		}
 	}
+
 }

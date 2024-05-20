@@ -46,9 +46,11 @@
 		"bgcolor_override"							"Blank"
 		"paintBackground"							"0"
 		"labelText"									"Welcome to Team Fortress 2
-		
+
 		Our map rotation is:
-		- Dust2 24/7 No Awp/Auto"
+		- Dust2 24/7 No Awp/Auto
+		- awp_lego_2
+		- something else"
 		"proportionaltoparent"						"1"
 	}
 	"HTMLMessage"
@@ -80,7 +82,7 @@
 		"labelText"									"#TF_WELCOME"
 		"textAlignment"								"center"
 		"AllCaps"									"1"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 		"fgcolor"									"White"
 
 		"pin_to_sibling"							"TFTextMessage"
@@ -101,7 +103,7 @@
 		"labelText"									"CONTINUE"
 		"textAlignment"								"center"
 		"command"									"okay"
-		"font"										"Coolvetica15"
+		"font"										"azuki_font15"
 
 		"paintbackground"							"0"
 		"paintborder"								"0"

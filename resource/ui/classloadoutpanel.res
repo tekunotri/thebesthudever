@@ -1,5 +1,18 @@
 "Resource/UI/ClassLoadoutPanel.res"
 {
+	"TopBgImage"
+	{
+		"ControlName"				"ImagePanel"
+		"xpos"						"0"
+		"ypos"						"25"
+		"zpos"						"-2"
+		"wide"						"f0"  //Change this to "0" if you dont want a bg here
+		"tall"						"480"
+		"image"						"replay/thumbnails/bg_images/nktbeach"
+		"scaleImage"				"1"
+		"enabled"					"0"
+		"visible"					"1"
+	}
 	"class_loadout_panel"
 	{
 		"ControlName"								"Frame"
@@ -11,9 +24,9 @@
 		"enabled"									"1"
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
-		"bgcolor_override"							"46 43 42 255"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"							"graybg3"
+		"infocus_bgcolor_override"					"graybg3"
+		"outoffocus_bgcolor_override"				"graybg3"
 
 		"item_xpos_offcenter_a"						"-310"
 		"item_xpos_offcenter_b"						"165"
@@ -294,7 +307,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"graybg3"
 		}
 		"TextLabel"
 		{
@@ -310,7 +323,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"graybg3"
 		}
 		"CloseButton"
 		{
@@ -332,9 +345,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"46 43 42 255"
+			"defaultFgColor_override"				"graybg3"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"46 43 42 255"
+			"depressedFgColor_override"				"graybg3"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
@@ -484,7 +497,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"graybg3"
 		}
 		"TextLabel"
 		{
@@ -500,7 +513,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"wrap"									"1"
-			"fgcolor"								"46 43 42 255"
+			"fgcolor"								"graybg3"
 		}
 		"CloseButton"
 		{
@@ -522,9 +535,9 @@
 
 			"paintbackground"						"0"
 
-			"defaultFgColor_override"				"46 43 42 255"
+			"defaultFgColor_override"				"graybg3"
 			"armedFgColor_override"					"235 226 202 255"
-			"depressedFgColor_override"				"46 43 42 255"
+			"depressedFgColor_override"				"graybg3"
 
 			"image_drawcolor"						"117 107 94 255"
 			"image_armedcolor"						"200 80 60 255"
