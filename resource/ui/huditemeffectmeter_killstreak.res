@@ -2,176 +2,83 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"110"
-		"ypos"			"278"
-		"wide"			"f0"
-		"tall"			"260"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"1000000"
-		"ypos"					"100"
-		"zpos"					"2"
-		"wide"					"80"
-		"tall"					"40"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"killstreak"
-		"textAlignment"			"north"
-		"centerwrap"			"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"azuki_font11"
-		"fgcolor_override"		"234 241 71 255"
-	}
-	
-	"ItemEffectMeterLabelCopy"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelCopy"
-		"xpos"					"c160"
-		"ypos"					"114"
-		"zpos"					"3"
-		"wide"					"200"
-		"tall"					"40"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"Femboy Sex'd:"
-		"textAlignment"			"north"
-		"centerwrap"			"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"azuki_font13"
-		"fgcolor_override"		"255 192 203 255"
-	}
-	"ItemEffectMeterLabelCopyCopy"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelCopyCopy"
-		"xpos"					"c160"
-		"ypos"					"115"
-		"zpos"					"1"
-		"wide"					"200"
-		"tall"					"40"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"Femboy Sex'd:"
-		"textAlignment"			"north"
-		"centerwrap"			"1"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"azuki_font13"
-		"fgcolor_override"		"0 255 0 255"
+		"fieldName"	"HudItemEffectMeter"	"visible"	"1"	"enabled"	"1"	"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
 	}
 
 	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"70"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"fgcolor_override"		"255 192 203 255"
-	}					
+	{
+		"ControlName"	"ContinuousProgressBar"	"fieldName"	"ItemEffectMeter"
+	}	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabel"	"xpos"	"9999"
+	}
+	
+	"ItemEffectMeterLabelNew"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabelNew"
+		"xpos"	"100"	"ypos"	"200"	"zpos"	"2"	"wide"	"200"	"tall"	"40"	"labelText"	"femboys"	"textAlignment"	"east"
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+		"fgcolor_override"		"255 255 255 255"
+	}
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabelShadow"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"200"	"tall"	"40"	"labelText"	"femboys"	"textAlignment"	"east"
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+		"fgcolor_override"		"0 0 0 255"
+		"pin_to_sibling"	"ItemEffectMeterLabelNew"
+	}			
+	"ItemEffectMeterLabel_2"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabel_2"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"labelText"	"slayed:"	"textAlignment"	"west"
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+		"fgcolor_override"		"221 29 67 255"
+		"pin_to_sibling"	"ItemEffectMeterLabelNew"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}	
+	"ItemEffectMeterLabelShadow_2"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabelShadow_2"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"labelText"	"slayed"	"textAlignment"	"west"
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+		"fgcolor_override"		"0 0 0 255"
+		"pin_to_sibling"	"ItemEffectMeterLabel_2"
+	}	
+
+	"Poland"
+	{
+		"ControlName"	"ImagePanel"	"fieldName"	"Poland"
+		"xpos"	"-100"	"ypos"	"40"	"wide"	"96"	"tall"	"96"		
+		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/poland"	"scaleImage"	"1"		
+		"pin_to_sibling"	"ItemEffectMeterLabelNew"
+	}		
 	
 	"ItemEffectMeterCount"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c305"
-		"ypos"					"101"
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterCount"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"80"
-		"tall"					"40"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"azuki_font11"
-		"fgcolor" 				"255 192 203 255"
+		"tall"					"40"	"labelText"	"%progresscount%"	"textAlignment"	"west"
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+		"fgcolor"	"white"
+		"pin_to_sibling"	"ItemEffectMeterLabel_2"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
-	"ItemEffectMeterCountCopy"
+	
+	"ItemEffectMeterCountShadow"
 	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountCopy"
-		"xpos"					"c305"
-		"ypos"					"102"
-		"zpos"					"1"
+		"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
 		"wide"					"80"
-		"tall"					"40"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"azuki_font11"
-		"fgcolor" 				"0 255 0 255"
-	}
-    "Background"
-    {
-        "ControlName"                                "EditablePanel"
-        "fieldName"                                    "Background"
-        "xpos"                                        "9999"
-        "ypos"                                        "9999"
-    }
+		"tall"					"40"	"labelText"	"%progresscount%"	"textAlignment"	"west"
 
-    "SplashLabel"
-    {
-        "ControlName"                                "CExLabel"
-        "fieldName"                                    "SplashLabel"
-        "ypos"                                        "9999"
-        "alpha"                                        "0"
-    }
-}
+		"font"	"umeboshi10"	"visible"	"1"	"enabled"	"1"
+
+		"fgcolor"	"0 0 0 255"
+		"pin_to_sibling"	"ItemEffectMeterCount"
+	}
 }

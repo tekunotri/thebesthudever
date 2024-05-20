@@ -20,3 +20,6 @@ tf_dashboard_slide_time 1
 
 // weapon indicator
 cl_crosshair_scale 12
+
+alias "petition" "OpenSteamWorkshopDialog"
+wait 20; petition; play ui/petition

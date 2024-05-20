@@ -7,6 +7,13 @@
 	}
 	"Fonts"
 	{
+		"umeboshi10"
+		{
+			"1"
+			{
+				"name"	"umeboshi"	"tall"	"10"	"antialias"	"1"
+			}
+		}
 		"m0refont9"
 		{
 			"1"
@@ -3043,6 +3050,11 @@
 			"font"		"resource/scheme/fonts/DFPOCOC.TTF"
 			"name"		"DFPPOPCorn-W12"
 		}
+		"18"
+		{
+			"font"		"resource/scheme/fonts/umeboshi.ttf"
+			"name"		"umeboshi"
+		}		
 	}
 
 }
