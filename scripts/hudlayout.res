@@ -2,6 +2,21 @@
 
 "Scripts/HudLayout.res"
 {
+	"flashbang"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"flashbang"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"9999"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"fillcolor"		"255 255 255 255"
+		"alpha"			"0"
+	}
 	"HudPlayerStatus"
 	{
 		"fieldName"									"HudPlayerStatus"
@@ -358,7 +373,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"xpos"										"0"
-		"ypos"										"c85"
+		"ypos"										"c-45"
 		"wide"										"252"
 		"tall"										"32"
 		"priority"									"40"

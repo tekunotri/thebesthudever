@@ -121,7 +121,7 @@
 		"tall"										"27"
 		"visible"									"0"
 		"enabled"									"1"
-		"image"										"../hud/class_spy_outline"
+		"image"										"replay/thumbnails/walter"
 		"scaleImage"								"1"
 	}
 	"classmodelpanel"
@@ -345,15 +345,20 @@
 
 	"PlayerStatusSpyImage"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayerStatusSpyImage"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyImage"
+		"xpos"			"9999"	
+		"ypos"			"r67"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/ted"
+		"scaleImage"	"1"	
+		"teambg_2"		"replay/thumbnails/ted"
+		"teambg_3"		"replay/thumbnails/ted"	
+	}	
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"

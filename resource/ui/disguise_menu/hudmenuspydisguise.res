@@ -14,7 +14,21 @@
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
 		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"0 0 0 100"
+		"bgcolor_override"							"0 0 0 0"
+	}
+	"speech"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"speech"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"99"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/edp"
+		"scaleimage"								"1"
 	}
 	"ToggleLabel"
 	{

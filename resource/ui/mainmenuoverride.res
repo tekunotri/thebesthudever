@@ -1,3 +1,4 @@
+#base "VTF Preload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"MainMenuOverride"
@@ -186,7 +187,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"MainMenuAnchor"
-		"xpos"										"c-241"
+		"xpos"										"40"
 		"ypos"										"220"
 		"wide"										"10"
 		"tall"										"10"
@@ -388,7 +389,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"Create"
-		"xpos"										"-91"
+		"xpos"										"30"
 		"ypos"										"3"
 		"zpos"										"16"
 		"wide"										"22"

@@ -6,12 +6,12 @@
 	"Version"
 	{
 		"label"										"m0re Gangster Edition"
-		"command"									"engine con_enable 1; toggleconsole"
+		"command"									"engine con_enable 1; toggleconsole; echo M0RE GANGSTER HUD, MORE GANGSTA THAN GANGSTA"
 		"OnlyAtMenu"								"1"
 	}
 	"Servers"
 	{
-		"label"										"Servers"
+		"label"										"阿卜杜萨博达索德纳索德"
 		"command"									"OpenServerBrowser"
 	}
 	"Create"
@@ -21,37 +21,37 @@
 	}
 	"Items"
 	{
-		"label"										"Items"
+		"label"										"包"
 		"command"									"engine open_charinfo"
 	}
 	"Store"
 	{
-		"label"										"Store"
+		"label"										"Shop"
 		"command"									"engine open_store"
 	}
 	"Settings"
 	{
-		"label"										"Options"
+		"label"										"my OPPStions"
 		"command"									"OpenOptionsDialog"
 	}
 	"Advanced"
 	{
-		"label"										"Advanced"
+		"label"										"special Ad. vanced"
 		"command"									"opentf2options"
 	}
 	"DemoUI"
 	{
-		"label"										"DemoUI"
+		"label"										"DemonUI"
 		"command"									"engine demoui"
 	}
 	"Friends"
 	{
-		"label"										"Friends"
+		"label"										"Frineds"
 		"command"									"engine cl_mainmenu_safemode 1"
 	}
 	"Contracker"
 	{
-		"label"										"Contracker"
+		"label"										"CnOtrakcer"
 		"command"									"questlog"
 	}
 	"Workshop"
@@ -61,7 +61,7 @@
 	}
 	"Quit"
 	{
-		"label"										"Quit"
+		"label"										"rage quit"
 		"command"									"engine replay_confirmquit"
 		"OnlyAtMenu"								"1"
 	}

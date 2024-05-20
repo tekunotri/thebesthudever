@@ -36,6 +36,20 @@
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"
 	}
+	"speech"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"speech"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-1"
+		"wide"										"105"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/speech"
+		"scaleimage"								"1"
+	}
 	"TargetBGshade"
 	{
 		"ControlName"								"ImagePanel"
@@ -45,7 +59,7 @@
 		"zpos"										"-1"
 		"wide"										"252"
 		"tall"										"12"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"fillcolor"									"0 0 0 100"
 	}
@@ -53,8 +67,8 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TargetNameLabel"
-		"xpos"										"0"
-		"ypos"										"11"
+		"xpos"										"-50"
+		"ypos"										"2"
 		"zpos"										"1"
 		"wide"										"640"
 		"tall"										"12"
@@ -63,7 +77,7 @@
 		"font"										"m0refont11"
 		"labelText"									"%targetname%"
 		"textAlignment"								"west"
-		"disabledfgcolor2_override"					"White"
+		"disabledfgcolor2_override"					"black"
 	}
 	"TargetDataLabel"
 	{
@@ -86,7 +100,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
 		"xpos"										"5"
-		"ypos"										"-5"
+		"ypos"										"-12"
 		"wide"										"60"
 		"tall"										"40"
 		"visible"									"1"

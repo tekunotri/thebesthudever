@@ -23,6 +23,22 @@
 		"killstreak_image_width"					"12"
 	}
 
+	"f"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"f"
+		"xpos"										"cs-0.5"
+		"ypos"										"cs-0.5"
+		"zpos"										"7"
+		"wide"										"400"
+		"tall"										"250"
+		"visible"									"0"
+		"visible_minmode"							"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/yoi_feet"
+		"scaleImage"								"1"
+	}
+	
 	"BluePlayerList"
 	{
 		"ControlName"								"SectionedListPanel"
