@@ -121,7 +121,12 @@ event HudSnapShotReminderIn
 	RunEvent HudLowAmmoPulseStop					10.0
 	RunEvent HudMedicChargedStop					10.0
 }
-
+//===========================================================================================================================
+event DamagedPlayer
+{
+	Animate	        Gif	    Alpha	"255"	Linear 0.0 0.0		
+	Animate	        Gif	    Alpha	"0"		Linear 0.0 1.0
+}
 //===========================================================================================================================
 
 event HudSpyDisguiseChanged{}

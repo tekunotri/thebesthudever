@@ -3,6 +3,7 @@
 
 "Resource/UI/HudPlayerClass.res"
 {
+
 	"HudPlayerClass"
 	{
 		"ControlName"								"EditablePanel"
@@ -14,6 +15,50 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
+	}
+	"Gif"
+	{
+		"ControlName"	         				 	"ImagePanel"
+		"fieldName"		         				 	"Gif"
+		"xpos"	    								"cs-0.5"
+		"ypos"	        							"cs-0.5"	
+		"zpos"			         				 	"100"
+		"wide"			         				 	"48"
+		"tall"			         				 	"48"
+		"visible"		         				 	"1"
+		"enabled"		         				 	"1"
+		"image"			         				 	"replay/thumbnails/Gif"
+		"scaleImage"	         				 	"1"
+		"alpha"	         				 			"0"
+	}
+	"Crosshair"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"Crosshair"
+		"zpos"				"0"
+		"xpos"		        "cs-0.5"
+		"ypos"		        "cs-0.5"
+		"wide"				"20"
+		"tall"				"20"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/Omga"
+		"scaleImage"		"1"
+    }
+	"MeterBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MeterBG"
+		"xpos"					"c320"
+		"ypos"					"c78"
+		"zpos"					"-7"
+		"wide"					"108"
+		"tall"						"90"
+		"visible"					"1"
+		"enabled"				"1"
+		"scaleImage"			"1"	
+		"image"					"replay/thumbnails/MeterBG"
+		"alpha"                 "255"
 	}
 	"Spin"
 	{

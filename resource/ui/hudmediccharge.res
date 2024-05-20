@@ -111,16 +111,27 @@
 	{
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
-		"xpos"										"0"
-		"ypos"										"rs1"
+		"xpos"										"9999"
+		"ypos"										"9999"
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"4"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"fgcolor_override"							"Ubercharge"
 	}
+    "Circle"
+    {
+        "ControlName"                               "CircularProgressBar"
+        "variable"                                  "Charge"
+        "fg_image"                                  "replay/thumbnails/minion"
+		"bg_image"                                  "replay/thumbnails/b4nny"
+		"xpos"										"cs-0.5"
+		"ypos"										"c65"                                   
+		"wide"										"48"
+		"tall"										"48"          
+    }
 
 	//==================================================================================================================================================
 	// VACCINATOR CHARGES

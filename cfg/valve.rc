@@ -15,8 +15,8 @@ stuffcmds
 
 // display the startup level
 startupmenu
-
 sv_unlockedchapters 99
-
-
 tf_dashboard_slide_time 1
+
+// weapon indicator
+cl_crosshair_scale 12
