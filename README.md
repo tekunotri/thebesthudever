@@ -1,3 +1,111 @@
-# 6 editors, 1 hud
+# AIMBOT
+- Aim Bot - Automatically aim at enemy
+- Aim Key - Only automatically aim if you hold down the assigned key
+- Aim Fov - Only aim at targets within a specified fov
+- Priority - Who to aim at (Closest to your crosshair, most health, least distance, etc.)
+- Target Lock - Don't change target when already locked on to one
+- Aim Position - Select prefered body part
+- Aim Method - Choose aimbot's method (silent, silent+, smooth, assistance)
+- Smooth Aimbot Value - Preferred smooth aimbot value for improved legit gameplay.
+- Smooth Aimbot Type - Smooth aimbot acceleration method (Slow End, Constant, Fast End, Default)
+- Target Switch Delay - Delay before looking for a new target
+- First Shot Delay - Delay before shooting the first shot
+- Auto Shoot - Automatically shoot when active
+- Projectile Aimbot - Aim with projectile weapons with time and gravity prediction
+- Legit Projectile Aimbot - Draws predicted target position
+- Melee Aimbot - Automatically attack enemies with your melee weapon
+- Medigun Aimbot - Automatically aim with the medigun to heal your teammates
+- Medigun Uber - Automatically pop uber in dangerous situations
+- Spread: Max distance - Ignore any target outside set distance with spread weapons
+- Aim When Reloading - Aim while reloading
+- Minigun Spinup - Continues spinning minigun if aim key is being held
+- Crit Hack - Decide when you want your weapon to fire critical hit
+- Crit key - Force crit when you hold the key
+- Melee Crits - Almost always melee crit
 
-good luck!
+- Aim Sentry - Aim at sentries
+- Aim Other Buildings - Aim at dispensers and teleporters
+- Aim Stickies - Aim at stickies to destroy them
+- Aim Sentry Buster - Aim at sentry buster in MvM
+- Aim NPC - Aim at NPCs like merasmus, horsemann etc..
+- Ignore steam Friends - Ignore steam friends
+- Ignore Deadringer - Ignore deadringered spies
+- Ignore Cloaked - Ignore cloaked spies
+- Ignore Disguised - Ignore disguised spies
+- Ignore Taunting - Ignore taunting players
+- Ignore Vacc Ubercharge - Ignore players with vaccinator ubercharge
+- Ignore Teammates - Do not use weapons with friendly effect on teammates (crossbow etc.)
+- Prefer Medics - Rather shoot at medics than at other classes
+
+- Sniper: Zoomed Only - Only shoot when you are scoping
+- Sniper: Auto Zoom - Automatically zoom before shooting
+- Wait For Charge - Wait for enough charge to one hit kill (Also for ambassador spy)
+- BackTrack - Aim at past target position
+- Double Tap - Rapid fire with wide range of supported weapons
+- No Spread - Disable weapon inaccuracy
+- No Recoil - Disable weapon knockback
+
+#TRIGGER
+- Trigger Key - Only trigger if you hold down the assigned key
+- Auto Backstab - Automatically backstab enemies when possible
+- Disguise After Attack - Automatically disguise after attack
+- Ignore Razorback - Do not backstab sniper with the razorback
+- Auto Detonate Sticky - Automatically detonate stickies as demoman
+- Auto Detonator - Automatically detonate flare as pyro
+- Auto Airblast - Automatically reflect/destroy projectiles as pyro and engineer
+- Auto Vaccinator - Auto pick ubercharge resist type
+- Auto Ubercharge - Automatically trigged ubercharge when needed
+- Health Percentage - Activate Ubercharge when HP gets below this percentage
+- 'Activate Uber' Voice Trigger - Activate Ubercharge if told via 'Activate Uber' voicecommand
+
+- Trigger Shoot - Automatically shoot when an enemy passes under your crosshair
+- Trigger Shoot key - Only trigger shoot if you hold down the assigned key
+- Trigger Melee - Automatically attack with melee when enemy is hitable
+- Trigger Position - Only shoot when bodypart passes under your crosshair
+- Trigger Shoot Delay - The amount of ms to wait before shooting
+- Sniper: Shoot Thru Teammates - Shoot through teammates or not
+- BackTrack - Shoot at past target position
+
+#ESP
+- Players - Show players through walls
+- Enemy Only - Only show enemy players through walls
+- Centered - Show text information centered
+- Friends - Mark steam friends and lobby members with different color
+- Name - Display player name
+- Steam - Display steam ID
+- Health - Display health in bar, value or percent
+- Weapon - Display current weapon
+- Ubercharge - Display ubercharge percent
+- Distance - Display distance between you and the enemy
+- Class - Display class
+- Box - Display a box around the player in 3D, outlined or solid
+- Skeleton - Display player model skeleton
+- Glow - Display glow in team or health color
+- Glow Style - Glow effect outline style (Blur, classic)
+- Glow Mode - Glow effect mode (Outline, solid, outline-solid)
+- Glow Size - Glow effect outline size
+- View Angles - Draw view angles on snipers or all players
+- Spy: Anti-Disguise - Reveal the Spy behind disguise
+- Hide Cloaked - Do not draw ESP on invisible spies
+
+- Buildings - Display buildings through walls
+- Buildings Name - Display building name
+- Enemy Only - Display only enemy buildings
+- Health - Display building health in bar, value or percent
+- Box - Display a box around the building in 3D, outlined or solid
+- Glow - Display glow in team or health color
+
+- Aimbot Fov Range - Always draw the set aimbot fov
+- Aimbot Target Highlight - Highlight target the aimbot wants to shoot at
+- Crit Indicator - Display number of crits available via Crit Hack
+- BackTrack Indicator - Draw backtrack history as player chams or points
+- Text Color - Display text in white or team color
+- Far ESP - Draw ESP on distant enemies
+
+- Ammo/Medkit - Display Ammo/Medkits
+- MvM Money - Display MvM money
+- Halloween Items - Display halloween items
+- Power Ups - Display power ups
+- NPC - Display Non-Player characters
+- Projectiles - Display projectiles
+- Capture Flag - Display capture flag
