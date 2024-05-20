@@ -45,7 +45,7 @@
 - No Spread - Disable weapon inaccuracy
 - No Recoil - Disable weapon knockback
 
-#TRIGGER
+# TRIGGER
 - Trigger Key - Only trigger if you hold down the assigned key
 - Auto Backstab - Automatically backstab enemies when possible
 - Disguise After Attack - Automatically disguise after attack
@@ -66,7 +66,7 @@
 - Sniper: Shoot Thru Teammates - Shoot through teammates or not
 - BackTrack - Shoot at past target position
 
-#ESP
+# ESP
 - Players - Show players through walls
 - Enemy Only - Only show enemy players through walls
 - Centered - Show text information centered
